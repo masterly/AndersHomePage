@@ -1,0 +1,163 @@
+body {
+    font: 100% "Times New Roman", Times;
+    background: #fff /*#27292A*/ 50% 0 no-repeat;
+}
+
+div {
+    display: block;
+}
+
+.footer {
+    width: 961px;
+    margin: 0 auto;
+    font-family: "Gill Sans", "Times new roman";
+    height: 60px;
+    border-top: 3px solid #000;
+    padding: 20px 10px;
+}
+
+    .footer p {
+        font-size: 12px;
+    }
+
+p.copyright {
+    float: right;
+    color: #333;
+    margin-top: -30px;
+}
+
+.footer-links {
+    font-size: 12px;
+    margin-left: -5px;
+    padding-bottom: 25px;
+    float: left;
+}
+
+.footer-logo {
+    background: url(images/footer-logo.jpg) no-repeat;
+    height: 30px;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: inline-block;
+    width: 974px;
+    background: #fff;
+    margin: 0 auto;
+    padding-top: 29px;
+}
+
+#outer-wrapper {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#topnav {
+    background: #27292a;
+    display: block!important;
+    height: 48px;
+}
+
+#topblognav {
+    background: #27292a;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+#billboard {
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+    clear: both;
+}
+
+#takeover-left {
+    width: 160px;
+    min-height: 1000px;
+    float: left;
+    text-align: right;
+}
+
+#takeover-right {
+    width: 160px;
+    min-height: 1000px;
+    float: right;
+    text-align: left;
+}
+
+.header {
+    overflow: hidden;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.logo {
+    margin: 0 auto -7px auto;
+    text-align: center;
+}
+
+.nav {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-family: "Gill Sans", "Times new roman";
+}
+
+.over-nav {
+    margin: -12px 0 0 0;
+}
+
+.dd {
+    height: 40px;
+    margin: 0 0 0 276px;
+}
+
+    .dd li {
+        float: left;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+        .dd li a {
+            color: #000;
+            font-size: 13px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            display: block;
+            padding-top: 14px;
+            margin: 0 14px;
+            white-space: nowrap;
+        }
+
+        .dd li ul li {
+            float: none;
+            border: none;
+            text-align: left;
+            margin: 5px 0;
+            padding: 0 8px;
+        }
+
+ol, ul {
+    list-style: none;
+}
+
+#myemail-position {
+    float: right;
+    position: absolute;
+    margin: 0 725px;
+}
+
+#body {
+    padding: 30px 0 45px;
+}

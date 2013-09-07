@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Anders Nguyen</title>
+    <link rel="stylesheet" media="screen" href="/Content/css/style2.css" />
+</head>
+
+<body>
+    @* <div id="topblognav"></div>*@
+    <div id="outer-wrapper">
+        <div id="takeover-left">
+            <script type="text/javascript">
+<!-- 
+    EAS_3618();
+    //-->
+            </script>
+            <!-- No matching campaign -->
+        </div>
+        <div id="takeover-right">
+            <script type="text/javascript">
+<!-- 
+    EAS_3619();
+    //-->
+            </script>
+            <!-- No matching campaign -->
+        </div>
+        <div class="wrapper">
+            <div id="billboard">
+                <script type="text/javascript">
+				<!-- 
+    EAS_3620();
+    //-->
+                </script>
+                <!-- No matching campaign -->
+            </div>
+            <div class="header clear">
+                <div style="clear: both"></div>
+                <div class="logo">
+                    <a href="#">
+                        <img src="~/Content/images/logo.png" alt="Anders Nguyen"></a>
+                </div>
+            </div>
+            <div class="over-nav">
+                <strong>Stockholm</strong><strong id="myemail-position">nguyen.anders@gmail.com</strong>
+            </div>
+            <div class="nav">
+                <ul id="dd" class="dd">
+                    
+                    <li>@Html.ActionLink("Start", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Muay Thai", "MuayThai", "Home")</a>
+                </ul>
+            </div>
+            <div id="body">
+                @RenderBody()
+            </div>
+            <div class="footer">
+                        <div class="footer-logo"></div>
+            
+                <p class="copyright"> Contact me on
+                <br><span style="float:right;color:#000">Email: <a href="mailto:nguyen.anders@gmail.com">nguyen.anders@gmail.com</a></span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- /container -->
+
+    <!-- Le javascript
+            ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/bootstrap.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

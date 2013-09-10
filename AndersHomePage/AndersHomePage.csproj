@@ -194,8 +194,9 @@
     <Content Include="Content\bootstrap\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap\bootstrap.css" />
     <Content Include="Content\bootstrap\bootstrap.min.css" />
-    <Content Include="Content\css\style2.css" />
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\style2.css" />
+    <Content Include="Content\css\style1.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\images\bg_lightgrey.jpg" />
     <Content Include="Content\images\logo.png" />
@@ -333,6 +334,7 @@
     <Content Include="Views\Shared\_alerts.cshtml" />
     <Content Include="Views\Shared\_MyLayout.cshtml" />
     <Content Include="Views\Home\MuayThai.cshtml" />
+    <Content Include="Views\Shared\resonsiveOffCanvas.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

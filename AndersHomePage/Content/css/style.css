@@ -853,3 +853,13 @@ body.active .main_content {
 .spacediv {
     padding-bottom: 650px;
 }
+.social-icon {
+    width: 5%;
+    height: 5%
+}
+
+.blockcenterpos {
+    margin-left: auto;
+    margin-right: auto;
+    width: 38em
+}

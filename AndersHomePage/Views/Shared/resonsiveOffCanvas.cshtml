@@ -23,19 +23,14 @@
 
 
     <div class="container">
-
         <div class="menu_container">
             <a id="menu-toggle" class="anchor-link" href="#mobile-nav">MENU</a>
         </div>
-
         <nav id="#mobile-nav" class="nav clearfix" role="navigation">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Collection</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Directions</a></li>
+                <li>@Html.ActionLink("Start", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
             </ul>
         </nav>
 
@@ -52,7 +47,7 @@
             </div>
             @RenderBody()
         </section>
-       <footer class="clearfix footer">
+        <footer class="clearfix footer">
             <p class="copyright"><a href="http://andershomepage.apphb.com/">Anders Nguyen</a></p>
         </footer>
     </div>
